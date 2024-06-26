@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:text="Seleccione Tipo de Prenda"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/comboBoxTp"
+        android:layout_width="380dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="18dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="126dp"
+        android:text="Cantidad de prendas"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textCantidad"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="Ingrese la Cantidad"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="226dp"
+        android:text="Ingrese la Categoria"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textCategoria"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="262dp"
+        android:ems="10"
+        android:hint="A/B/C/D"
+        android:inputType="text"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/btn_principal"
+        android:text="Procesar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/btn_secondary"
+        android:text="Limpiar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="410dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="385dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="363dp"
+        android:layout_height="278dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="14dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

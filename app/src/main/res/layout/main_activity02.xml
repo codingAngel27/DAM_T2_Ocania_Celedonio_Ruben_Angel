@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:background="@color/fond_color">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-1dp"
+        android:text="Seleccion el Televisor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="1dp"
+        android:text="Precio del Televisor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="-4dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Ingrese el precio"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/cbTvs"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="3dp"
+        android:entries="@array/tvs"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="0dp"
+        android:text="Selecciona la pulgada"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/cbPulgadas"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="0dp"
+        android:entries="@array/tam" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="316dp"
+        android:text="Calcular"
+        android:background="@drawable/btn_principal"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="318dp"
+        android:text="Limpiar"
+        android:background="@drawable/btn_secondary"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="351dp"
+        android:layout_height="245dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="43dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="303dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

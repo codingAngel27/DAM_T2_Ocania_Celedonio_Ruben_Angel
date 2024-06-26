@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="50dp"
+        android:text="Evaluacion T2"
+        android:textAlignment="center"
+        android:textColor="@color/red_color"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/btn_principal"
+        android:text="Pregunta 01"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/btn_principal"
+        android:text="Pregunta 02"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn03"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="338dp"
+        android:background="@drawable/btn_principal"
+        android:text="Pregunta 03"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn04"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/btn_principal"
+        android:text="Pregunta 04"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="562dp"
+        android:text="Ruben Angel Ocaña Celedonio"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

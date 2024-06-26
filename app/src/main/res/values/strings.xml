@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ExamenT2</string>
+    <string-array name="tvs">
+        <item>Samsung</item>
+        <item>Panasonic</item>
+        <item>Lg</item>
+        <item>Sony</item>
+    </string-array>
+    <string-array name="tam">
+        <item>19</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="origen">
+        <item>Agencia</item>
+    </string-array>
+    <string-array name="destino">
+        <item>Ica (A)</item>
+        <item>Arequipa (B)</item>
+        <item>Chimbote (C)</item>
+        <item>Trujillo (D)</item>
+    </string-array>
+    <string name="viuda">Viuda</string>
+    <string name="casada">Casada</string>
+    <string name="soltera">Soltera</string>
+    <string name="ingrese_la_cantidad">Ingrese la cantidad</string>
+    <string name="calcular">calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="numero_de_hijos">Numero de Hijos</string>
+    <string name="resultado" />
+</resources>
